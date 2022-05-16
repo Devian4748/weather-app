@@ -1,0 +1,227 @@
+[
+  {
+    "overhead_code": 113,
+    "daycondition": "Sunny",
+    "NightCondition": "Clear",
+    "trans_text_day": "맑음",
+    "trans_text_night": "화창함",
+    "lang_iso": "ko",
+    "lang_name": "Korean"
+  },
+  {
+    "overhead_code": 116,
+    "daycondition": "Partly cloudy",
+    "NightCondition": "Partly cloudy",
+    "trans_text_day": "대체로 맑음",
+    "trans_text_night": "대체로 맑음",
+    "lang_iso": "ko",
+    "lang_name": "Korean"
+  },
+  {
+    "overhead_code": 119,
+    "daycondition": "Cloudy",
+    "NightCondition": "Cloudy",
+    "trans_text_day": "구름 낀",
+    "trans_text_night": "구름 낀",
+    "lang_iso": "ko",
+    "lang_name": "Korean"
+  },
+  {
+    "overhead_code": 122,
+    "daycondition": "Overcast",
+    "NightCondition": "Overcast",
+    "trans_text_day": "흐린",
+    "trans_text_night": "흐린",
+    "lang_iso": "ko",
+    "lang_name": "Korean"
+  },
+  {
+    "overhead_code": 143,
+    "daycondition": "Mist",
+    "NightCondition": "Mist",
+    "trans_text_day": "안개",
+    "trans_text_night": "안개",
+    "lang_iso": "ko",
+    "lang_name": "Korean"
+  },
+  {
+    "overhead_code": 176,
+    "daycondition": "Patchy rain possible",
+    "NightCondition": "Patchy rain possible",
+    "trans_text_day": "근처 곳곳에 비",
+    "trans_text_night": "근처 곳곳에 비",
+    "lang_iso": "ko",
+    "lang_name": "Korean"
+  },
+  {
+    "overhead_code": 179,
+    "daycondition": "Patchy snow possible",
+    "NightCondition": "Patchy snow possible",
+    "trans_text_day": "근처 곳곳에 눈",
+    "trans_text_night": "근처 곳곳에 눈",
+    "lang_iso": "ko",
+    "lang_name": "Korean"
+  },
+  {
+    "overhead_code": 182,
+    "daycondition": "Patchy sleet possible",
+    "NightCondition": "Patchy sleet possible",
+    "trans_text_day": "근처 곳곳에 진눈깨비",
+    "trans_text_night": "근처 곳곳에 진눈깨비",
+    "lang_iso": "ko",
+    "lang_name": "Korean"
+  },
+  {
+    "overhead_code": 185,
+    "daycondition": "Patchy freezing drizzle possible",
+    "NightCondition": "Patchy freezing drizzle possible",
+    "trans_text_day": "근처 곳곳에 동결 이슬비",
+    "trans_text_night": "근처 곳곳에 동결 이슬비",
+    "lang_iso": "ko",
+    "lang_name": "Korean"
+  },
+  {
+    "overhead_code": 200,
+    "daycondition": "Thundery outbreaks possible",
+    "NightCondition": "Thundery outbreaks possible",
+    "trans_text_day": "근처에 천둥 발생",
+    "trans_text_night": "근처에 천둥 발생",
+    "lang_iso": "ko",
+    "lang_name": "Korean"
+  },
+  {
+    "overhead_code": 227,
+    "daycondition": "Blowing snow",
+    "NightCondition": "Blowing snow",
+    "trans_text_day": "날리는 눈",
+    "trans_text_night": "날리는 눈",
+    "lang_iso": "ko",
+    "lang_name": "Korean"
+  },
+  {
+    "overhead_code": 230,
+    "daycondition": "Blizzard",
+    "NightCondition": "Blizzard",
+    "trans_text_day": "눈보라",
+    "trans_text_night": "눈보라",
+    "lang_iso": "ko",
+    "lang_name": "Korean"
+  },
+  {
+    "overhead_code": 248,
+    "daycondition": "Fog",
+    "NightCondition": "Fog",
+    "trans_text_day": "안개",
+    "trans_text_night": "안개",
+    "lang_iso": "ko",
+    "lang_name": "Korean"
+  },
+  {
+    "overhead_code": 260,
+    "daycondition": "Freezing fog",
+    "NightCondition": "Freezing fog",
+    "trans_text_day": "동결 안개",
+    "trans_text_night": "동결 안개",
+    "lang_iso": "ko",
+    "lang_name": "Korean"
+  },
+  {
+    "overhead_code": 263,
+    "daycondition": "Patchy light drizzle",
+    "NightCondition": "Patchy light drizzle",
+    "trans_text_day": "곳곳에 가벼운 이슬비",
+    "trans_text_night": "곳곳에 가벼운 이슬비",
+    "lang_iso": "ko",
+    "lang_name": "Korean"
+  },
+  {
+    "overhead_code": 266,
+    "daycondition": "Light drizzle",
+    "NightCondition": "Light drizzle",
+    "trans_text_day": "가벼운 이슬비",
+    "trans_text_night": "가벼운 이슬비",
+    "lang_iso": "ko",
+    "lang_name": "Korean"
+  },
+  {
+    "overhead_code": 281,
+    "daycondition": "Freezing drizzle",
+    "NightCondition": "Freezing drizzle",
+    "trans_text_day": "동결 이슬비",
+    "trans_text_night": "동결 이슬비",
+    "lang_iso": "ko",
+    "lang_name": "Korean"
+  },
+  {
+    "overhead_code": 284,
+    "daycondition": "Heavy freezing drizzle",
+    "NightCondition": "Heavy freezing drizzle",
+    "trans_text_day": "심한 동결 이슬비",
+    "trans_text_night": "심한 동결 이슬비",
+    "lang_iso": "ko",
+    "lang_name": "Korean"
+  },
+  {
+    "overhead_code": 293,
+    "daycondition": "Patchy light rain",
+    "NightCondition": "Patchy light rain",
+    "trans_text_day": "곳곳에 가벼운 비",
+    "trans_text_night": "곳곳에 가벼운 비",
+    "lang_iso": "ko",
+    "lang_name": "Korean"
+  },
+  {
+    "overhead_code": 296,
+    "daycondition": "Light rain",
+    "NightCondition": "Light rain",
+    "trans_text_day": "가벼운 비",
+    "trans_text_night": "가벼운 비",
+    "lang_iso": "ko",
+    "lang_name": "Korean"
+  },
+  {
+    "overhead_code": 299,
+    "daycondition": "Moderate rain at times",
+    "NightCondition": "Moderate rain at times",
+    "trans_text_day": "때때로 보통 비",
+    "trans_text_night": "때때로 보통 비",
+    "lang_iso": "ko",
+    "lang_name": "Korean"
+  },
+  {
+    "overhead_code": 302,
+    "daycondition": "Moderate rain",
+    "NightCondition": "Moderate rain",
+    "trans_text_day": "보통 비",
+    "trans_text_night": "보통 비",
+    "lang_iso": "ko",
+    "lang_name": "Korean"
+  },
+  {
+    "overhead_code": 305,
+    "daycondition": "Heavy rain at times",
+    "NightCondition": "Heavy rain at times",
+    "trans_text_day": "때때로 폭우",
+    "trans_text_night": "때때로 폭우",
+    "lang_iso": "ko",
+    "lang_name": "Korean"
+  },
+  {
+    "overhead_code": 308,
+    "daycondition": "Heavy rain",
+    "NightCondition": "Heavy rain",
+    "trans_text_day": "폭우",
+    "trans_text_night": "폭우",
+    "lang_iso": "ko",
+    "lang_name": "Korean"
+  },
+  {
+    "overhead_code": 311,
+    "daycondition": "Light freezing rain",
+    "NightCondition": "Light freezing rain",
+    "trans_text_day": "약간의 동결 비",
+    "trans_text_night": "약간의 동결 비",
+    "lang_iso": "ko",
+    "lang_name": "Korean"
+  }
+]
