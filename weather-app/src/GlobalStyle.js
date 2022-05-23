@@ -15,5 +15,7 @@ export default createGlobalStyle`
     line-height: 1;
     background-color: #3C4A90;
     color: #fff;
+    position: relative;
+    height: 100vh;
   }
 `;

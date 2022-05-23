@@ -1,6 +1,8 @@
 import styled from 'styled-components';
-import { Loader } from './ui';
+import { Loader, RefreshIcon } from './ui';
 import weatherCodes from './weather-code';
+import { useState, useEffect } from 'react';
+import { BASE_WEATHER_URL, WEATHER_KEY } from './weatherApi';
 
 const StyledCurrentWeather = styled.article`
   width: 85vw;
@@ -48,7 +50,59 @@ const WeatherDetailInfoItem = styled.p`
   gap: 1.5rem;
 `;
 
-const CurrentWeather = ({ currentWeather }) => {
+const WeatherLocationBox = styled.h2`
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  svg {
+    cursor: pointer;
+  }
+`;
+
+const CurrentWeather = () => {
+  const [currentWeather, setCurrentWeather] = useState();
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    (async () => {
+      try {
+        const response = await fetch(
+          `${BASE_WEATHER_URL}/forecast?access_key=${WEATHER_KEY}&query=Seoul&forcast_days=1&hourly=1`
+        );
+        const data = await response.json();
+        setCurrentWeather(data);
+      } catch (error) {
+        alert(error);
+      } finally {
+        setIsLoading(false);
+      }
+    })();
+  }, []);
+
+  const handleRefreshClick = () => {
+    (async () => {
+      try {
+        setIsLoading(true);
+        const response = await fetch(
+          `${BASE_WEATHER_URL}/forecast?access_key=${WEATHER_KEY}&query=Seoul&forcast_days=1&hourly=1`
+        );
+        const data = await response.json();
+        setCurrentWeather(data);
+      } catch (error) {
+        alert(error);
+      } finally {
+        setIsLoading(false);
+      }
+    })();
+  };
+
+  if (!currentWeather || isLoading) {
+    return <Loader>Loading...</Loader>;
+  }
+
   let findWeatherCode = null;
   if (currentWeather.current) {
     findWeatherCode = weatherCodes.find(weatherCode => {
@@ -56,18 +110,15 @@ const CurrentWeather = ({ currentWeather }) => {
     });
   }
 
-  if (!findWeatherCode) {
-    return <Loader>Loading...</Loader>;
-  }
-
   return (
     <StyledCurrentWeather>
       {currentWeather.location && (
-        <h2>
+        <WeatherLocationBox>
           <span>{currentWeather.location.country}</span>
           <span>&#44;</span>
           <span>{currentWeather.location.name}</span>
-        </h2>
+          <RefreshIcon onRefreshClick={handleRefreshClick} />
+        </WeatherLocationBox>
       )}
       <WeatherInfo>
         <WeatherSummaryInfo>
